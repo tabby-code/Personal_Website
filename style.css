@@ -10,8 +10,8 @@ body {
     font-family: 'Monocraft', monospace;
     background-color: #1e1e1e;
     color: #d4d4d4;
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 50px;
 }
 
 paragraph {
