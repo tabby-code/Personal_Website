@@ -3,18 +3,34 @@
     src: url('https://cdn.jsdelivr.net/gh/IdreesInc/Monocraft@main/dist/Monocraft-ttf/Monocraft.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    
 
+}
+h1 {
+  position: relative;
+  top: -350px;
 }
 
 body {
     font-family: 'Monocraft', monospace;
-    background-color: #1e1e1e;
+    background-color: #001025;
     color: #d4d4d4;
-    margin: 50px;
-    padding: 50px;
+    margin: 500px;
+    padding: 0px;
+    font-size: 30px;
+    background-image: url("images/RealMountain.PNG.PNG");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 1000px;
 }
 
-paragraph {
-    margin: 0;
-    padding: 0;
+p {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #d4d4d4;
+  margin: 20px;
+  padding:20px;
 }
